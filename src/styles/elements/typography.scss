@@ -39,3 +39,8 @@ h5 {
 h6 {
     font-size: var(--font-size-h6);
 }
+
+.light {
+    font-weight: 300;
+    color: rgba($color: #fff, $alpha: 0.55);
+}

@@ -1,3 +1,16 @@
 .laboratoires {
     background-color: var(--color-black);
+
+    h2 {
+        color: var(--color-white);
+        margin: 0 0 100px 0;
+    }
+}
+
+.laboratoires.reactif {
+    background-color: var(--color-primary);
+
+    h2 {
+        color: var(--color-black);
+    }
 }

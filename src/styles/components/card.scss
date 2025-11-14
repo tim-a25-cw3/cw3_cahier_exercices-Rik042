@@ -36,4 +36,17 @@
 
 .card__content {
     color: var(--color-white);
+
+    h3 {
+        font-weight: 600;
+        font-size: typo(16px);
+    }
+
+    p {
+        font-size: typo(24px, 32px);
+    }
+
+    .langage {
+        font-size: typo(18px);
+    }
 }
