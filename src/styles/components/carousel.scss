@@ -1,0 +1,17 @@
+.swiper-pagination {
+    margin-top: 50px;
+    --swiper-pagination-color: var(--color-white);
+    position: static;
+
+    --swiper-pagination-bullet-inactive-color: var(--color-black);
+    --swiper-pagination-bullet-width: 15px;
+    --swiper-pagination-bullet-height: 15px;
+    --swiper-pagination-bullet-border-radius: 0;
+    --swiper-pagination-bullet-horizontal-gap: 10px;
+
+    position: static;
+
+    .swiper-pagination-bullet {
+        rotate: 45deg;
+    }
+}

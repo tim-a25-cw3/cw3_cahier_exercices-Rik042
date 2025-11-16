@@ -24,6 +24,7 @@
 @import 'elements/links';
 @import 'elements/wrapper';
 
+@import '../../node_modules/swiper/swiper-bundle';
 // COMPONENTS
 // Composants d'interface utilisateur spécifiques.
 // C’est là que la majorité de notre travail a lieu.
@@ -34,3 +35,4 @@
 @import 'components/card';
 @import 'components/laboratoires';
 @import 'components/button';
+@import 'components/carousel.scss';

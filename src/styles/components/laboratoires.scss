@@ -13,4 +13,25 @@
     h2 {
         color: var(--color-black);
     }
+
+    .card {
+        .card__content {
+            order: unset;
+        }
+
+        h3,
+        p,
+        .light {
+            color: var(--color-black);
+        }
+
+        .button {
+            background-color: var(--color-white);
+
+            &:hover {
+                background-color: var(--color-black);
+                color: var(--color-white);
+            }
+        }
+    }
 }
