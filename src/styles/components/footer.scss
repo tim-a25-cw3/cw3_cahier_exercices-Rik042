@@ -1,0 +1,33 @@
+.footer {
+    background-color: var(--color-black);
+    padding: 40px 0;
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        margin: unset;
+        color: var(--color-white);
+        font-size: typo(56px);
+    }
+
+    p {
+        color: var(--color-white);
+        font-size: typo(18px);
+    }
+
+    ul {
+        color: var(--color-secondary);
+        display: flex;
+        gap: 56px;
+        list-style-type: none;
+        padding: unset;
+        .icon {
+            width: 48px;
+            height: 48px;
+        }
+    }
+}
