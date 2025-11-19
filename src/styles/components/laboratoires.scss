@@ -10,8 +10,13 @@
 .laboratoires.reactif {
     background-color: var(--color-primary);
 
-    h2, .light {
+    h2,
+    .light {
         color: var(--color-black);
+    }
+
+    .cards {
+        display: block;
     }
 
     .card {
@@ -19,7 +24,8 @@
             order: unset;
         }
 
-        h3, p{
+        h3,
+        p {
             color: var(--color-black);
             font-weight: 600;
         }
