@@ -20,11 +20,13 @@
     }
 
     ul {
-        color: var(--color-secondary);
         display: flex;
         gap: 56px;
         list-style-type: none;
         padding: unset;
+        a {
+            color: var(--color-secondary);
+        }
         .icon {
             width: 48px;
             height: 48px;

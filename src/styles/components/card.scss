@@ -1,5 +1,16 @@
-// .cards {
-// }
+.cards {
+    display: grid;
+    gap: var(--spacing-lg);
+
+    @media (width <= $breakpoint-md) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-md);
+    }
+
+    @media (width <= $breakpoint-sm) {
+        display: block;
+    }
+}
 
 .card {
     display: grid;
@@ -12,7 +23,7 @@
             order: -1;
         }
     }
-    @media (width <= $breakpoint-sm) {
+    @media (width <= $breakpoint-md) {
         grid-template-columns: 1fr;
 
         &:nth-child(even) {
